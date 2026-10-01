@@ -1,0 +1,115 @@
+openapi: 3.0.3
+info:
+  title: CampusBot Leave API
+  description: REST API used by watsonx Assistant (as a custom extension) to submit and track student leave requests.
+  version: 1.0.0
+servers:
+  - url: https://YOUR-PUBLIC-BACKEND-URL   # replace with your deployed / ngrok URL
+security:
+  - ApiKeyAuth: []
+paths:
+  /leave-requests:
+    post:
+      operationId: createLeaveRequest
+      summary: Submit a leave request
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LeaveRequestInput'
+      responses:
+        '201':
+          description: Leave request created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LeaveRequest'
+        '400':
+          description: Validation error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /leave-requests/{request_id}:
+    get:
+      operationId: getLeaveRequest
+      summary: Get the status of a leave request
+      parameters:
+        - name: request_id
+          in: path
+          required: true
+          description: Leave request id such as LR-0001
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Leave request found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LeaveRequest'
+        '400':
+          description: Malformed request id
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-Key
+  schemas:
+    LeaveRequestInput:
+      type: object
+      required: [student_id, days, from_date, reason]
+      properties:
+        student_id:
+          type: string
+          example: 21CS1001
+        days:
+          type: integer
+          minimum: 1
+          maximum: 30
+          example: 3
+        from_date:
+          type: string
+          format: date
+          example: '2026-10-12'
+        reason:
+          type: string
+          example: Fever
+    LeaveRequest:
+      type: object
+      properties:
+        request_id:
+          type: string
+          example: LR-0001
+        student_id:
+          type: string
+        days:
+          type: integer
+        from_date:
+          type: string
+        reason:
+          type: string
+        status:
+          type: string
+          enum: [APPROVED, PENDING_HOD_APPROVAL, ESCALATED]
+        remarks:
+          type: string
+        created_at:
+          type: string
+    Error:
+      type: object
+      properties:
+        error:
+          type: string

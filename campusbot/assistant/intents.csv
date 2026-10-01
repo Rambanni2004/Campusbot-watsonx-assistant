@@ -1,0 +1,120 @@
+hi,Greeting
+hello,Greeting
+hey there,Greeting
+good morning,Greeting
+good afternoon,Greeting
+good evening,Greeting
+hi bot,Greeting
+hello assistant,Greeting
+hey,Greeting
+namaste,Greeting
+hi there,Greeting
+anyone there,Greeting
+bye,Goodbye
+goodbye,Goodbye
+see you later,Goodbye
+thanks bye,Goodbye
+that's all,Goodbye
+nothing else,Goodbye
+talk to you later,Goodbye
+I'm done,Goodbye
+see you,Goodbye
+thank you that is all,Goodbye
+have a good day,Goodbye
+exit,Goodbye
+what are the fees,Fees Information
+how much is the tuition fee,Fees Information
+B.Tech fee structure,Fees Information
+tell me about course fees,Fees Information
+fee details please,Fees Information
+what is the annual fee,Fees Information
+how much do I need to pay for admission,Fees Information
+last date to pay fees,Fees Information
+can I pay fees in installments,Fees Information
+fees for first year,Fees Information
+how do I pay my fee,Fees Information
+what is the total course fee,Fees Information
+what are the college timings,College Timings
+when does college start,College Timings
+what time does college end,College Timings
+library timings,College Timings
+working hours of the office,College Timings
+what time is the first class,College Timings
+when does the library close,College Timings
+is the college open on saturday,College Timings
+lunch break timing,College Timings
+office hours please,College Timings
+class schedule timings,College Timings
+what time do classes begin,College Timings
+how can I contact the college,Contact Details
+give me the phone number,Contact Details
+what is the admissions office email,Contact Details
+contact details of the helpdesk,Contact Details
+how do I reach the principal's office,Contact Details
+I need the address of the college,Contact Details
+where is the college located,Contact Details
+whom should I call for help,Contact Details
+email id of the exam cell,Contact Details
+helpdesk contact number,Contact Details
+give me the contact number,Contact Details
+college address please,Contact Details
+when are the exams,Exam Schedule
+semester exam dates,Exam Schedule
+exam timetable please,Exam Schedule
+when do mid exams start,Exam Schedule
+show me the exam schedule,Exam Schedule
+when is the end semester exam,Exam Schedule
+date of the final exams,Exam Schedule
+when will hall tickets be released,Exam Schedule
+exam dates for this semester,Exam Schedule
+what is the internal exam schedule,Exam Schedule
+supplementary exam dates,Exam Schedule
+when do the exams begin,Exam Schedule
+tell me about the hostel,Hostel Information
+hostel facilities,Hostel Information
+how do I apply for hostel accommodation,Hostel Information
+is there a hostel for girls,Hostel Information
+hostel mess timings,Hostel Information
+hostel room types,Hostel Information
+what are the hostel rules,Hostel Information
+is wifi available in the hostel,Hostel Information
+hostel admission process,Hostel Information
+do you provide hostel rooms,Hostel Information
+hostel in-time,Hostel Information
+hostel warden details,Hostel Information
+tell me about placements,Placement Information
+which companies visit for placements,Placement Information
+what is the highest package,Placement Information
+average salary package,Placement Information
+placement statistics,Placement Information
+when does the placement drive start,Placement Information
+how many students got placed,Placement Information
+placement training details,Placement Information
+campus recruitment details,Placement Information
+internship opportunities,Placement Information
+do you have placement support,Placement Information
+list of recruiters,Placement Information
+I want to apply for leave,Apply for Leave
+apply leave,Apply for Leave
+I need leave for 3 days,Apply for Leave
+request leave for tomorrow,Apply for Leave
+I want to take a day off,Apply for Leave
+can I get leave next week,Apply for Leave
+submit a leave request,Apply for Leave
+I am sick and need leave,Apply for Leave
+leave application please,Apply for Leave
+I need to go home for a function,Apply for Leave
+apply for medical leave,Apply for Leave
+raise a leave request,Apply for Leave
+check my leave status,Check Leave Status
+what is the status of my leave request,Check Leave Status
+is my leave approved,Check Leave Status
+leave request status,Check Leave Status
+track my leave application,Check Leave Status
+has my leave been approved,Check Leave Status
+status of leave LR-0001,Check Leave Status
+did the HOD approve my leave,Check Leave Status
+check leave request status,Check Leave Status
+where is my leave application,Check Leave Status
+I want to know my leave status,Check Leave Status
+leave approval status,Check Leave Status

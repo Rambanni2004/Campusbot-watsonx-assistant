@@ -1,0 +1,31 @@
+utterance,expected_action
+hello campusbot,Greeting
+good morning bot,Greeting
+hey are you there,Greeting
+ok bye then,Goodbye
+that will be all thanks,Goodbye
+catch you later,Goodbye
+how much is the semester fee,Fees Information
+what's the fee for B.Tech CSE,Fees Information
+when is the fee payment deadline,Fees Information
+when does the library open,College Timings
+college opening time,College Timings
+is college open on sundays,College Timings
+what is the helpdesk email,Contact Details
+phone number of the office,Contact Details
+where is the campus,Contact Details
+what are the exam dates,Exam Schedule
+when is the mid term exam,Exam Schedule
+is there a timetable for finals,Exam Schedule
+how can I get a room in the hostel,Hostel Information
+what facilities does the hostel have,Hostel Information
+hostel curfew time,Hostel Information
+what is the placement percentage,Placement Information
+which companies come for campus hiring,Placement Information
+what is the average package offered,Placement Information
+please apply leave for me,Apply for Leave
+I need two days off,Apply for Leave
+I'd like to request leave,Apply for Leave
+what happened to my leave request,Check Leave Status
+is my leave request approved yet,Check Leave Status
+show leave status,Check Leave Status
